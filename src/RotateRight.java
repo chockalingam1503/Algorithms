@@ -5,8 +5,9 @@ class RotateRight {
             //Initialize array     
             int [] arr = new int [] {1, 2, 3, 4, 5};     
             //n determine the number of times an array should be rotated.    
-            int n = 13;    
+            int n = 11;    
                
+            n=n%arr.length;
             //Displays original array    
             System.out.println("Original array: ");    
             for (int i = 0; i < arr.length; i++) {     
